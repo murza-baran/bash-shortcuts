@@ -5,12 +5,12 @@ Bash
 
 | command      | description                                                                         |
 |--------------|-------------------------------------------------------------------------------------|
-| Ctrl-a       | Goto BEGINNING of command line                                                      |
-| Ctrl-e       | Goto END of command line                                                            |
-| Ctrl-b       | move back one character                                                             |
-| Ctrl-f       | move forward one character                                                          |
-| Alt-f        | move cursor FORWARD one word                                                        |
-| Alt-b        | move cursor BACK one word                                                           |
+| Ctrl-a       | Goto beginning of command line                                                      |
+| Ctrl-e       | Goto end of command line                                                            |
+| Ctrl-b       | Move back one character                                                             |
+| Ctrl-f       | Move forward one character                                                          |
+| Alt-f        | Move cursor forward one word                                                        |
+| Alt-b        | Move cursor back one word                                                           |
 | Ctrl-] x     | Where x is any character, moves the cursor forward to the next occurance of x.      |
 | Alt-Ctrl-] x | Where x is any character, moves the cursor backwards to the previous occurance of x.|
 
@@ -21,22 +21,22 @@ Bash
 |-------------------|--------------------------------|
 | Ctrl-d            | Delete the character under the cursor |
 | Ctrl-l            | Clear the screen (same as clear command) |
-| Ctrl-u            | Clear all BEFORE cursor |
-| Ctrl-k            | Clear all AFTER cursor |
-| Ctrl-w            | delete the word BEFORE the cursor |
-| Alt-[Backspace]   | delete PREVIOUS word |
+| Ctrl-u            | Clear all before cursor |
+| Ctrl-k            | Clear all after cursor |
+| Ctrl-w            | Delete the word before the cursor |
+| Alt-[Backspace]   | Delete previous word |
 | Esc-Del           | Delete previous word (may not work, instead try Esc followed by Backspace) |
 
 ### Various editing
 | command           | description                                   |
 |-------------------|-----------------------------------------------|
-| Ctrl-t            | swap the last two characters before the cursor |
-| Ctrl-y            | paste (if you used a previous command to delete) |
-| Ctrl-_            | undo |
-| Ctrl-x Ctrl-u     | Undo the last changes.
-| Alt-r             | Undo all changes to the line.
+| Ctrl-t            | Swap the last two characters before the cursor |
+| Ctrl-y            | Paste (if you used a previous command to delete) |
+| Ctrl-_            | Undo |
+| Ctrl-x Ctrl-u     | Undo. Same as previous |
+| Alt-r             | Undo all changes to the line. |
 | Esc-t             | Swap last two words before the cursor |
-| Alt-Ctrl-e	    | Expand command line.
+| Alt-Ctrl-e	    | Expand command line. |
 
 ### History
 | command           | description                                   |
