@@ -36,7 +36,7 @@ Bash keyboard shortcuts
 | Ctrl-x Ctrl-u     | Undo. Same as previous                           |
 | Alt-r             | Undo all changes to the line.                    |
 | Esc-t             | Swap last two words before the cursor            |
-| Alt-Ctrl-e	       | Expand command line                              |
+| Alt-Ctrl-e        | Expand command line                              |
 | Esc-.             | print the last argument                          |
 
 ## History
@@ -48,13 +48,13 @@ Bash keyboard shortcuts
 | Crtl-s            | Search forward starting at the current line and moving 'down' through the history as necessary |
 | Alt-<             | Move to the first line in the history                                                          |
 | Alt->             | Move to the end of the input history, i.e., the line currently being entered                   |
-| Alt-p   		        | Non-incremental reverse search of history.                                                     |
-| !!		              | Execute last command in history                                                                |
-| !abc		            | Execute last command in history beginning with abc                                             |
-| !abc:p	           | Print last command in history beginning with abc                                               |
-| !n		              | Execute nth command in history                                                                 |
-| !$		              | Last argument of last command                                                                  |
-| !^		              | First argument of last command                                                                 |
+| Alt-p             | Non-incremental reverse search of history.                                                     |
+| !!                | Execute last command in history                                                                |
+| !abc              | Execute last command in history beginning with abc                                             |
+| !abc:p            | Print last command in history beginning with abc                                               |
+| !n                | Execute nth command in history                                                                 |
+| !$                | Last argument of last command                                                                  |
+| !^                | First argument of last command                                                                 |
 | ^abc^xyz          | Replace first occurance of abc with xyz in last command and execute it                         |
  
 ## Processes
