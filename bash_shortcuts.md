@@ -38,7 +38,7 @@ Bash
 | Esc-t             | Swap last two words before the cursor |
 | Alt-Ctrl-e	    | Expand command line. |
 
-### History
+## History
 | command           | description                                   |
 |-------------------|-----------------------------------------------|
 | Ctrl-p            | Fetch the previous command from the history list, moving back in the list (same as up arrow) |
@@ -56,20 +56,20 @@ Bash
 | !^		        | First argument of last command
 | ^abc^xyz          | Replace first occurance of abc with xyz in last command and execute it
  
-### Processes
+## Processes
 | command           | description                                   |
 |-------------------|-----------------------------------------------|
 | Ctrl-c            | kill whatever is running |
 | Ctrl-d            | Exit shell (same as exit command) |
 | Ctrl-z            | Place current process in background |
 
-### Unknown
+## Unknown
 | command           | description                                   |
 |-------------------|-----------------------------------------------|
 | esc-.           | |
 | esc-_           | |
 | Alt-?           | |
-| Alt-\*           | |
+| Alt-\*          | |
 | Alt-.           | print the LAST ARGUMENT (ie "vim file1.txt file2.txt" will yield "file2.txt") |
 | Alt-c           | |
 | Alt-d           | |
