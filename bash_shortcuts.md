@@ -64,10 +64,12 @@ Bash
 | Ctrl-z            | Place current process in background |
 
 ### Unknown
+| command           | description                                   |
+|-------------------|-----------------------------------------------|
 | esc-.           | |
 | esc-_           | |
 | Alt-?           | |
-| Alt-*           | |
+| Alt-\*           | |
 | Alt-.           | print the LAST ARGUMENT (ie "vim file1.txt file2.txt" will yield "file2.txt") |
 | Alt-c           | |
 | Alt-d           | |
@@ -84,23 +86,3 @@ Bash
 | !!                | Run PREVIOUS command (ie `sudo !!`) |
 | !vi               | Run PREVIOUS command that BEGINS with vi |
 | cd -              | change to PREVIOUS working directory |
-
-
-   
-# Kill a job
-
-n = job number, to list jobs, run `jobs`
-
-```bash
-kill %n
-```
-
-Example:
-
-```bash
-kill %1
-```
-
-## References
-
-1. http://cnswww.cns.cwru.edu/php/chet/readline/readline.html
