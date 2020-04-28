@@ -71,7 +71,6 @@ Bash keyboard shortcuts
 | esc-_           | |
 | Alt-?           | |
 | Alt-\*          | |
-
 | Alt-c           | |
 | Alt-d           | |
 | Alt-l           | |
